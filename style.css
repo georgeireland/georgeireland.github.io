@@ -25,7 +25,7 @@
 
 /* ***** Fonts ***** */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Quicksand:300,400,500,700|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,700i');
 
 /* ***** Import CSS ***** */
 
@@ -59,7 +59,7 @@ h4,
 h5,
 h6 {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: #232d37;
     line-height: 1.25;
 }
@@ -457,10 +457,10 @@ li {
     text-transform: uppercase;
     font-size: 14px;
 }
-
+.footLink { color: #333; }
 .navbar.navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar.navbar-expand-lg .navbar-nav .active .nav-link {
-    color: #fc6c3f;
+    color: #dbdbdb;
 }
 
 .dropdown-item {
@@ -1074,7 +1074,7 @@ li {
 
 .breadcumb-area {
     width: 100%;
-    height: 200px;
+    height: 500px;
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -1088,7 +1088,6 @@ li {
     content: '';
     top: 0;
     left: 0;
-    background-color: rgba(35, 45, 55, 0.7);
     z-index: -1;
 }
 
